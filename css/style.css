@@ -10,6 +10,14 @@
     font-family: montreal-serial-extrabold;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    transition: 1s;
+}
+
 .line {
     height: 1px;
     background-color: var(--primary-color);
@@ -24,5 +32,18 @@
     background-color: var(--grey-color);
     color: var(--primary-color);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+#navbar {
+    background-color: var(--grey-color);
+}
+
+#navbar-img {
+    width: 270px;
+    height: 100px;
+}
+
+.theImage img {
+    width: 100%;
 }
