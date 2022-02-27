@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #c00933;
+    --black-color: #000000;
+    --white--color: #ffffff;
+    --secondary-color: #6d6e71;
+    --grey-color: #dcddde;
+}
+
+* {
+    font-family: montreal-serial-extrabold;
+}
+
+.line {
+    height: 1px;
+    background-color: var(--primary-color);
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bgSecondary {
+    background-color: var(--grey-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 30px;
+}
